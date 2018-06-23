@@ -1,0 +1,35 @@
+{
+  "name": "esia",
+  "version": "0.1.0",
+  "description": "Модуль интеграции с ЕСИА",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js ./",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetihead/esia.git"
+  },
+  "keywords": [
+    "esia",
+    "ЕСИА"
+  ],
+  "author": "Sergey Khlupin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yetihead/esia/issues"
+  },
+  "homepage": "https://github.com/yetihead/esia#readme",
+  "dependencies": {
+    "base64-url": "^2.2.0",
+    "node-forge": "^0.7.5",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-config-google": "^0.9.1",
+    "husky": "^0.14.3"
+  }
+}
