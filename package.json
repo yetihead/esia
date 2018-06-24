@@ -1,7 +1,7 @@
 {
   "name": "esia",
-  "version": "0.1.0",
-  "description": "Модуль интеграции с ЕСИА",
+  "version": "0.2.0",
+  "description": "Модуль идентификации и аутентификации через ЕСИА.",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js ./",
@@ -24,7 +24,11 @@
   "homepage": "https://github.com/yetihead/esia#readme",
   "dependencies": {
     "base64-url": "^2.2.0",
+    "jwt-decode": "^2.2.0",
     "node-forge": "^0.7.5",
+    "querystring": "^0.2.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
