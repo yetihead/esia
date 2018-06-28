@@ -1,6 +1,6 @@
 {
   "name": "esia",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Модуль идентификации и аутентификации через ЕСИА.",
   "main": "index.js",
   "scripts": {
