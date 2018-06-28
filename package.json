@@ -1,12 +1,12 @@
 {
   "name": "esia",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Модуль идентификации и аутентификации через ЕСИА.",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js ./",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "npm run lint"
+    "test": "node node_modules/mocha/bin/mocha",
+    "precommit": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,8 @@
   "devDependencies": {
     "eslint": "^5.0.0",
     "eslint-config-google": "^0.9.1",
-    "husky": "^0.14.3"
+    "husky": "^0.14.3",
+    "mocha": "^5.2.0",
+    "sinon": "^6.0.1"
   }
 }
